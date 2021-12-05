@@ -19,7 +19,7 @@ for counter,item in enumerate(numbers):
     #print(item)
     if counter == 1999:
         break
-    if item < numbers[counter + 1]:
+    if item < numbers[counter + 1] and item != numbers[counter + 1]:
         print(True)
         print(item)
         print(numbers[counter + 1])
